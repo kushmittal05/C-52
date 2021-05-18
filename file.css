@@ -1,0 +1,51 @@
+h1{
+    color:rgb(20, 32, 99)
+}
+
+.header{
+    background-color: rgb(123, 226, 240);
+    display:flex;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    border-radius: 50px;
+}
+p{
+    text-align: center;
+    font-size: 28px
+}
+a :link{
+    color: white
+}
+a :visited{
+    color:black
+}
+.item {
+    position: relative;
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform : translate(-50%, -50%);
+    opacity: 0;
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.33;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(228, 183, 128);
+    padding: 15px
+}
+body{
+    margin: 0px;
+    background-color: rgb(181, 235, 112);
+}
